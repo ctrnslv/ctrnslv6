@@ -1,0 +1,463 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Luoghi": "Pisticci - dirupo",
+        "Contenuto": "Incontro Nico, insegnante a scuola e sentinella, che mi racconta delle battaglie del Movimento Tutela Val Basento [video Nico] ",
+        "x": 40.39003,
+        "y": 16.55015
+      },
+      "geometry": {
+        "coordinates": [
+          16.550153,
+          40.390034
+        ],
+        "type": "Point"
+      },
+      "id": "000fc36d774b54f4b3fb6b984293b9fd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Luoghi": "Pisticci - chiesa",
+        "Contenuto": "Mi presento alla comunita' di Pisticci nella loro Chiesa e ascolto le loro voci e denunce [podcast e foto]",
+        "x": 40.39042,
+        "y": 16.55847
+      },
+      "geometry": {
+        "coordinates": [
+          16.558473,
+          40.39042
+        ],
+        "type": "Point"
+      },
+      "id": "042a6db5da829de972f0baa930f5292d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contenuto": "Seguiamo la prima udienza del processo per disastro ambientale contro Eni, scorporato dal piu' ampio processo Petrolgate deciso in primo grado a marzo 2021 ; incontriamo le istanze civiche che manifestano fuori dal tribunale [documenti legali, link a articoli e foto, video]",
+        "Luoghi": "Tribunale di Potenza",
+        "x": 40.633483,
+        "y": 15.806394
+      },
+      "geometry": {
+        "coordinates": [
+          15.805873,
+          40.633602
+        ],
+        "type": "Point"
+      },
+      "id": "0eccffe9f01303b360a8d3ed1f798dd2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Contenuto": "Cominicia l'inchiesta, diretta verso le terre lucane, con lentezza…[foto partenza e mappa cammino materano]",
+        "x": 41.13053,
+        "y": 16.87075
+      },
+      "geometry": {
+        "coordinates": [
+          16.862113,
+          41.125574
+        ],
+        "type": "Point"
+      },
+      "id": "0f955f24e882963ac31c0138e11ca115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Luoghi": "Viggiano - piazza",
+        "Contenuto": "Mimmo racconta dei contrasti di Viggiano, terra dell'arpa e della Madonna Nera, un'oasi nel deserto arricchita dalle royalties [video]",
+        "x": 40.342239,
+        "y": 15.900671
+      },
+      "geometry": {
+        "coordinates": [
+          15.900671,
+          40.342239
+        ],
+        "type": "Point"
+      },
+      "id": "1251ddaf8281a52b3900208b6d3cd24a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Luoghi": "Viggiano - studio medico",
+        "Contenuto": "Un 'dottore sentinella', il Dottor Mele, ci racconta del perche' ''in Basilicata di petrolio si muore…''",
+        "x": 40.33897,
+        "y": 15.90501
+      },
+      "geometry": {
+        "coordinates": [
+          15.905012,
+          40.33897
+        ],
+        "type": "Point"
+      },
+      "id": "1a29d17713c4233650ffdda55384e7e3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Luoghi": "Pisticci - studio legale",
+        "Contenuto": "Intervisto l'Avvocato Di Pisa, che difende le parti civili nel processo Petrolgate [video Di Pisa]",
+        "x": 40.39058,
+        "y": 16.55705
+      },
+      "geometry": {
+        "coordinates": [
+          16.557051,
+          40.390582
+        ],
+        "type": "Point"
+      },
+      "id": "4c703072c104b6097d2fe244d7166858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Luoghi": "Pisticci Scalo - Tecnoparco",
+        "Contenuto": "Visito con Mimmo il Tecnoparco di Pisticci Scalo, una delle fonti dei tormenti degli abitanti della zona [video]",
+        "x": 40.42288,
+        "y": 16.55701
+      },
+      "geometry": {
+        "coordinates": [
+          16.557009,
+          40.422888
+        ],
+        "type": "Point"
+      },
+      "id": "6b707b65e292602cd19ef9a5cae71dc3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Luoghi": "Corleto Perticara - Tempa Rossa, Total ",
+        "Contenuto": "Ci avviciniamo al sito estrattivo della Total [video go pro]",
+        "x": 40.41099,
+        "y": 16.09828
+      },
+      "geometry": {
+        "coordinates": [
+          16.085372,
+          40.409225
+        ],
+        "type": "Point"
+      },
+      "id": "6f3e6693cb8cc6f15e46c5747b4c5114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Luoghi": "Santeramo in Colle",
+        "Contenuto": "Durante il cammino, ascolto la canzone composta da un cantautore per l'inchiesta, al suon di musica avanzo nella murgia afosa [canzone]",
+        "x": 40.79573,
+        "y": 16.75428
+      },
+      "geometry": {
+        "coordinates": [
+          16.754282,
+          40.79573
+        ],
+        "type": "Point"
+      },
+      "id": "7a2029bc64d033536ae6270d3b997d4e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Luoghi": "Grumento Nova - Localita' Campestrini",
+        "Contenuto": "Intervisto l'allevatore Signor Miranda e sua madre, che mi raccontano delle conseguenze del petrolio sui suoi animali [video]",
+        "x": 40.30643,
+        "y": 15.92506
+      },
+      "geometry": {
+        "coordinates": [
+          15.889972,
+          40.308029
+        ],
+        "type": "Point"
+      },
+      "id": "87c2aeb416404691e5750bb462bc42e7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Luoghi": "Policoro - studio legale",
+        "Contenuto": "Intervisto l'Avvocato Bellizzi e il Dottor Mele, due 'professionisti sentinella' che guidano i cittadini nel dimostrare gli impatti del petrolio [video]",
+        "x": 40.19894,
+        "y": 16.66295
+      },
+      "geometry": {
+        "coordinates": [
+          16.662951,
+          40.198944
+        ],
+        "type": "Point"
+      },
+      "id": "971f90a7ce40af0cfe6e67a534e53d9f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Luoghi": "Corleto Perticara - fattoria",
+        "Contenuto": "Intervisto un allevatore e una allevatrice che mi raccontano di come la loro vita e' cambiata con l'avvento del petrolio [video]",
+        "x": 40.39407,
+        "y": 16.03765
+      },
+      "geometry": {
+        "coordinates": [
+          16.037655,
+          40.394076
+        ],
+        "type": "Point"
+      },
+      "id": "9cedf0981a3dbaccb4c3326cdfd47185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Luoghi": "Potenza - universita'",
+        "Contenuto": "Incontro Luca Manes che mi racconta del lavoro della ONG Recommon a tutela delle comunita' che fronteggiano multinazionali [video]",
+        "x": 40.63432,
+        "y": 15.80766
+      },
+      "geometry": {
+        "coordinates": [
+          15.807072,
+          40.633382
+        ],
+        "type": "Point"
+      },
+      "id": "a54d3682e030b7e19db976c8b8054266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Luoghi": "Corleto Perticara - bosco",
+        "Contenuto": "Osservo Mimmo mentre rimuove uno strumento di monitoraggio del gas flaring [video go pro e time lapse]",
+        "x": 40.44306,
+        "y": 16.105615
+      },
+      "geometry": {
+        "coordinates": [
+          16.074198,
+          40.418165
+        ],
+        "type": "Point"
+      },
+      "id": "a764980e06c89d7cb211b851ff600f20"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Luoghi": "Villa D'Agri - pozzo Eni, Contrada Vigne",
+        "Contenuto": "Intervisto Camilla Nigro di Libera Val d'Agri e dell'Osservatorio Popolare Val d'Agri che mi dimostra perche' ''in Basilicata di petrolio si tace...'' [video]",
+        "x": 40.360306,
+        "y": 15.945334
+      },
+      "geometry": {
+        "coordinates": [
+          15.945334,
+          40.360306
+        ],
+        "type": "Point"
+      },
+      "id": "c15a9b2efa3c271370685f7c3251a4c9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Luoghi": "Potenza - ARPAB",
+        "Contenuto": "Intervisto l'Avv. Tisci, Direttore dell'Agenzia Regionale per la Protezione dell'Ambiente Basilicata [video]",
+        "x": 40.63107,
+        "y": 15.81462
+      },
+      "geometry": {
+        "coordinates": [
+          15.814621,
+          40.631079
+        ],
+        "type": "Point"
+      },
+      "id": "cb0be3c22e64c22ed80925dae8448168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Luoghi": "Pisticci Scalo - chiesa",
+        "Contenuto": "Mi accoglie un illuminato 'parroco sentinella' che mi racconta dell'impegno della sua comunita' per l'ambiente [video]",
+        "x": 40.42296,
+        "y": 16.548022
+      },
+      "geometry": {
+        "coordinates": [
+          16.548939,
+          40.420474
+        ],
+        "type": "Point"
+      },
+      "id": "cf9952db22f52d9be92bed7a683aa268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Luoghi": "Altamura",
+        "Contenuto": "Stridenti contrasti tra un cammino curato e ben segnato, e cumuli di rifiuti che marciscono accanto agli ulivi mi fanno presagire il sapore dell'inchiesta [foto]",
+        "x": 40.82586,
+        "y": 16.55389
+      },
+      "geometry": {
+        "coordinates": [
+          16.553895,
+          40.825863
+        ],
+        "type": "Point"
+      },
+      "id": "d4606e1cf394c51b64a3ebada4f92308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Luoghi": "Lago del Pertusillo",
+        "Contenuto": "Seguo Mimmo sulle sponde del lago del Pertusillo e ascolto il suo racconto sulle morie di pesci [video]",
+        "x": 40.28175,
+        "y": 15.9826
+      },
+      "geometry": {
+        "coordinates": [
+          15.980585,
+          40.279434
+        ],
+        "type": "Point"
+      },
+      "id": "d6e8a089c2e42b916dc8b6e10c409574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Luoghi": "Cassano delle Murge",
+        "Contenuto": "Una guida incontrata lungo la Via Peuceta, da osservatore esterno, mi parla della Basilicata come di ‘’una terra cuscinetto, di cui non si deve parlare, dove solo i mediocri restano e regna il silenzio.’’ ",
+        "x": 40.89033,
+        "y": 16.77018
+      },
+      "geometry": {
+        "coordinates": [
+          16.770181,
+          40.89033
+        ],
+        "type": "Point"
+      },
+      "id": "e6d20794322c8d6a6a4f81821dd8e0e1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Luoghi": "Viggiano - Santuario della Madonna Nera",
+        "Contenuto": "La storia del petrolio in Basilicata raccontata in un monologo [Terramara - video]",
+        "x": 40.340554,
+        "y": 15.903673
+      },
+      "geometry": {
+        "coordinates": [
+          15.903673,
+          40.340554
+        ],
+        "type": "Point"
+      },
+      "id": "e846e01946dc505b16967a899808b95d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Luoghi": "Bitetto",
+        "Contenuto": "Nello zaino, lo stretto indispensabile e un'ispirazione, il libro di Alliegro ''Totem Nero'' [citazione dal libro]",
+        "x": 41.03993,
+        "y": 16.74883
+      },
+      "geometry": {
+        "coordinates": [
+          16.748832,
+          41.039937
+        ],
+        "type": "Point"
+      },
+      "id": "f69213eecac29025c22cdf66b93912df"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Luoghi": "Gravina di Puglia",
+        "Contenuto": "Incontro Mimmo, sentinella lucana che mi accompagnera' nel percorso dell'inchiesta…[foto Mimmo]",
+        "x": 40.81684,
+        "y": 16.4177
+      },
+      "geometry": {
+        "coordinates": [
+          16.417704,
+          40.816847
+        ],
+        "type": "Point"
+      },
+      "id": "f6bfe8153359ad6d77372133ec5c8a24"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Luoghi": "Viggiano - Centro Oli, Eni",
+        "Contenuto": "Percorriamo il perimetro del centro oli, dove mura colorate stridono con la realta' estrattiva racchiusa all'interno [video go pro]",
+        "x": 40.314245,
+        "y": 15.898193
+      },
+      "geometry": {
+        "coordinates": [
+          15.898193,
+          40.314245
+        ],
+        "type": "Point"
+      },
+      "id": "f93947ca4b4974b643c92d42cdef6dfc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Luoghi": "Viggiano - Direttivo Eni Distretto Meridionale",
+        "Contenuto": "Intervisto l'ing. Lopomo, Responsabile del Distretto Meridionale Eni, insieme al responsabile HSE del sito [podcast e foto]",
+        "x": 40.34153,
+        "y": 15.916342
+      },
+      "geometry": {
+        "coordinates": [
+          15.916342,
+          40.34153
+        ],
+        "type": "Point"
+      },
+      "id": "faafcb1cb5b3d31220ba83b6b477ee4f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Luoghi": "Pietrapertosa - dolomiti lucane",
+        "Contenuto": "Ammiro le affascinanti dolomiti lucane che quasi mi fanno dimenticare dei tanti pozzi a pochi chilometri di distanza [video go pro]",
+        "x": 40.51956,
+        "y": 16.0568
+      },
+      "geometry": {
+        "coordinates": [
+          16.059963,
+          40.519963
+        ],
+        "type": "Point"
+      },
+      "id": "fe955287cc486edd870c7ac4879e118d"
+    }
+  ],
+  "type": "FeatureCollection"
+}
