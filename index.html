@@ -17,9 +17,13 @@
             font-family: sans-serif;
         }
         a, a:hover, a:visited {
-            color: #0071bc;
-        }
-        #map {
+            color: #b52a2a;
+
+}
+h2{
+  color:#fafafa;
+  }
+      #map {
             top:0;
             height: 100vh;
             width:100vw;
@@ -81,12 +85,12 @@
 
         }
         .step {
-            padding-bottom: 50vh;
+            padding-bottom: 20vh;
             /* margin-bottom: 10vh; */
-            opacity: 0.25;
+            opacity: 0.8;
         }
         .step.active {
-            opacity: 0.9;
+            opacity: 0.8;
         }
 
         .step div {
@@ -108,6 +112,60 @@
                 margin: 0 auto;
             }
         }
+
+                .marker {
+
+background-size: cover;
+width: 800px;
+height: 600px;
+border-radius: 50%;
+cursor: pointer;
+}
+}
+.mapboxgl-popup {
+max-width: 800px;
+}
+
+.mapboxgl-popup-close-button {
+  display: block;
+  color: #fafafa;
+  z-index: 1000;
+}
+.mapboxgl-popup-content {
+color: #fafafa;
+background-color:#0a0a0a;
+opacity: 0.9;
+max-width: 600px;
+min-width: 300px;
+border-radius: 12px;
+box-shadow: 0 3px 14px #0a0a0a;
+font-family: sans-serif;
+font-size: 13px;
+padding-top: 1vh;
+padding-bottom: 1vh;
+text-align: center;
+line-height: 1.8;
+}
+.adimage {
+   height: 300px;
+}
+
+.adimage {
+  height: 100%;
+  width: auto;
+}
+  .ppcont{
+    width:100px;
+  }
+.mapboxgl-popup-image {
+  max-height: 500px;
+  max-width: 500px;
+  height: 50%;
+  width: 50%;
+}
+      }
+  }
+
 
         /* Fix issue on mobile browser where scroll breaks  */
         .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan,
@@ -137,7 +195,7 @@ var layerTypes = {
 var alignments = {
     'left': 'lefty',
     'center': 'centered',
-    'right': 'righty'
+    'right': 'righty',
     'full': 'fully'
 }
 
@@ -391,18 +449,18 @@ map.on('load', function () {
                     'type': 'Feature',
                     'properties': {
                         'description':
-                            '<strong>Bari</strong><p>Cominicia l\'inchiesta, diretta verso le terre lucane, con lentezza....</p><br><br><img src="Cammino.jpg">'
+                            '<h2><strong>Bari</h2></strong><img src="Cammino.jpg" width="150" height="250"><p>Cominicia l\'inchiesta, diretta verso le terre lucane, con lentezza....</p>'
                     },
                     'geometry': {
                         'type': 'Point',
-                        'coordinates': [16.86592, 41.11722]
+                        'coordinates': [16.871667,41.116944]
                     }
                 },
                 {
                     'type': 'Feature',
                     'properties': {
                         'description':
-                            '<strong>Bitetto</strong><p> Nello zaino\, lo stretto indispensabile e un\'ispirazione\, il libro di Alliegro \‘Totem Nero\’ che definisce la Basilicata  \"una sintesi formidabile di paradossi \[...\]\, isolata ma centrale\, depressa ma ricca\, densa di opportunita\’ quanto di angoscia\"</p><a href="https://www.libreriauniversitaria.it/totem-nero-petrolio-sviluppo-conflitti/libro/9788879755979">Link a Totem Nero</a>"'
+                            '<h2><strong>Bitetto</h2></strong><p> Nello zaino\, lo stretto indispensabile e un\'ispirazione\, il libro di Alliegro \‘Totem Nero\’ che definisce la Basilicata  \"una sintesi formidabile di paradossi \[...\]\, isolata ma centrale\, depressa ma ricca\, densa di opportunita\’ quanto di angoscia\"</p><a href="https://www.libreriauniversitaria.it/totem-nero-petrolio-sviluppo-conflitti/libro/9788879755979">Link a Totem Nero</a>'
                     },
                     'geometry': {
                         'type': 'Point',
@@ -413,7 +471,7 @@ map.on('load', function () {
                     'type': 'Feature',
                     'properties': {
                         'description':
-                            '<strong>Cassano delle Murge</strong><p>Una guida incontrata lungo la Via Peuceta, da osservatore esterno, mi parla della Basilicata come di \"una terra cuscinetto, di cui non si deve parlare, dove solo i mediocri restano e regna il silenzio\".</p>'
+                            '<h2><strong>Cassano delle Murge</strong></h2><img src="Quercia secolare.jpg"width="200" height="300"><p>Una guida incontrata lungo la Via Peuceta, da osservatore esterno, mi parla della Basilicata come di \"una terra cuscinetto, di cui non si deve parlare, dove solo i mediocri restano e regna il silenzio\".</p>'
                     },
                     'geometry': {
                         'type': 'Point',
@@ -424,7 +482,7 @@ map.on('load', function () {
                     'type': 'Feature',
                     'properties': {
                         'description':
-                            '<strong>Santeramo in Colle</strong><p>Durante il cammino, ascolto la canzone composta da un cantautore per l\'inchiesta, al suon di musica avanzo nella murgia afosa.\(canzone\)</p>'
+                            '<h2><strong>Santeramo in Colle</h2></strong><iframe width="250" height="200" src="https://www.youtube.com/embed/4sKiwkKBq0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>Durante il cammino, ascolto la canzone composta da un cantautore per l\'inchiesta, al suon di musica avanzo nella murgia afosa.</p>'
                     },
                     'geometry': {
                         'type': 'Point',
@@ -435,29 +493,29 @@ map.on('load', function () {
                     'type': 'Feature',
                     'properties': {
                         'description':
-                            "<strong>Altamura</strong><p>Stridenti contrasti tra un cammino curato e ben segnato, e cumuli di rifiuti che marciscono accanto agli ulivi mi fanno presagire il sapore dell\'inchiesta.\(foto\)</p>"
+                            '<h2><strong>Altamura</h2></strong><img src="Rifiuti.jpg"width="250" height="200"><p>Stridenti contrasti tra un cammino curato e ben segnato, e cumuli di rifiuti che marciscono accanto agli ulivi mi fanno presagire il sapore dell\'inchiesta.</p>'
                     },
                     'geometry': {
                         'type': 'Point',
-                        'coordinates': [16.55278, 40.82789]
+                        'coordinates': [16.553611, 40.825278]
                     }
                 },
                 {
                     'type': 'Feature',
                     'properties': {
                         'description':
-                            '<strong>Gravina di Puglia</strong><p>Incontro Mimmo, sentinella lucana che mi accompagnerà nel percorso dell\'inchiesta.\(foto Mimmo\)</p>'
+                            '<h2><strong>Gravina di Puglia</h2></strong><img src="sentinella13-0.jpg"width="250" height="300"><p>Incontro Mimmo, sentinella lucana che mi accompagnerà nel percorso dell\'inchiesta.</p>'
                     },
                     'geometry': {
                         'type': 'Point',
-                        'coordinates': [16.42375, 40.82094]
+                        'coordinates': [16.419167, 40.816944]
                     }
                 },
                 {
                     'type': 'Feature',
                     'properties': {
                         'description':
-                            '<strong>Pisticci</strong><p>Incontro Nico, insegnante a scuola e sentinella, che mi racconta delle battaglie del Movimento Tutela Val Basento.\(video Nico\)</p>'
+                            '<h2><strong>Pisticci</h2></strong><p>Arrivo a Pisticci...Continua a seguire il mio viaggio sulla prossima mappa (aggiungi txt)</p>'
                     },
                     'geometry': {
                         'type': 'Point',
@@ -486,6 +544,7 @@ map.on('load', function () {
         closeOnClick: true
     });
 
+
     map.on('mouseenter', 'places', function (e) {
         // Change the cursor style as a UI indicator.
         map.getCanvas().style.cursor = 'pointer';
@@ -505,7 +564,7 @@ map.on('load', function () {
         popup.setLngLat(coordinates).setHTML(description).addTo(map);
     });
 
-    map.on('mouseleave', 'places', function () {
+    map.on('click', 'places', function () {
         map.getCanvas().style.cursor = '';
         popup.remove();
     });
