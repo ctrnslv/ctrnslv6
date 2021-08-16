@@ -85,7 +85,7 @@ h2{
 
         }
         .step {
-            padding-bottom: 20vh;
+            padding-bottom: 10vh;
             /* margin-bottom: 10vh; */
             opacity: 0.8;
         }
@@ -100,15 +100,15 @@ h2{
         }
 
         .step img {
-            width: 100%;
+            width: 80%;
         }
         .step video {
             width: 100%;
         }
 
-        @media (max-width: 750px) {
+        @media (max-width: 500px) {
             .centered, .lefty, .righty, .fully {
-                width: 90vw;
+                width: 60vw;
                 margin: 0 auto;
             }
         }
@@ -542,7 +542,7 @@ map.on('load', function () {
   //  var popup = new mapboxgl.Popup({
       //  closeButton: true,
         //closeOnClick: true
-    });
+  //  });
 
 
   //  map.on('mouseenter', 'places', function (e) {
@@ -557,17 +557,17 @@ map.on('load', function () {
         // over the copy being pointed to.
         //while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
             //coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-        }
+      //  }
 
         // Populate the popup and set its coordinates
         // based on the feature found.
       //  popup.setLngLat(coordinates).setHTML(description).addTo(map);
-    });
+  //  });
 
     //map.on('click', 'places', function () {
       //  map.getCanvas().style.cursor = '';
       //  popup.remove();
-    });
+  //  });
 });
 
 
