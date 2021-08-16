@@ -58,7 +58,7 @@ var config = {
         id: 'slide-b',
         alignment: 'center',
         hidden: true,
-        title: 'Ascolta l\'audio e scorri la mappa cliccando sui punti che incontra la linea per seguire il mio cammino lento verso le tappe dell\'inchiesta.',
+        title: 'Ascolta l\'audio e scorri la mappa seguendo per seguire il mio cammino lento verso le tappe dell\'inchiesta.',
         description: '',
         location: {
           center: [8.61185, 45.91026],
@@ -86,7 +86,7 @@ var config = {
       {
             id: 'drive-slide-0',
             alignment: 'right',
-            hidden: true,
+            hidden: false,
             title: 'Bari',
             //image: 'https://lh3.googleusercontent.com/proxy/ftw_SpSYfI1kbOigFYgOtB5khwscLh-aDp_e6lrmNjQiOshyl6vFKrNxuBVsktYgqerp36Sa1LjpVxr43BJ9wqGc-2BxuHC5AiPdpL2IybHJQ9laTx8zocNHbjZBd2iWuN84cqwjAeMquAU4tGd55JX40OKoh17J5H5F',
           description: '<img src="Cammino.jpg" width="400" height="600"><br><br>Cominicia l\'inchiesta, diretta verso le terre lucane, con lentezza...',
@@ -105,7 +105,7 @@ var config = {
 {
       id: 'drive-slide-1',
       alignment: 'left',
-      hidden: true,
+      hidden: false,
       title: 'Bitetto',
       //image: 'https://lh3.googleusercontent.com/proxy/ftw_SpSYfI1kbOigFYgOtB5khwscLh-aDp_e6lrmNjQiOshyl6vFKrNxuBVsktYgqerp36Sa1LjpVxr43BJ9wqGc-2BxuHC5AiPdpL2IybHJQ9laTx8zocNHbjZBd2iWuN84cqwjAeMquAU4tGd55JX40OKoh17J5H5F',
       description: 'Nello zaino, lo stretto indispensabile e un\'ispirazione, il libro di Alliegro \"Totem Nero\" che definisce la Basilicata \"una sintesi formidabile di paradossi \[...\], isolata ma centrale, depressa ma ricca, densa di opportunità quanto di angoscia\"<br><br><a href="https://www.libreriauniversitaria.it/totem-nero-petrolio-sviluppo-conflitti/libro/9788879755979">Totem Nero</a>',
@@ -124,7 +124,7 @@ var config = {
 {
       id: 'drive-slide-2',
       alignment: 'left',
-      hidden: true,
+      hidden: false,
       title: 'Cassano delle Murge',
       //image: 'https://lh3.googleusercontent.com/proxy/ftw_SpSYfI1kbOigFYgOtB5khwscLh-aDp_e6lrmNjQiOshyl6vFKrNxuBVsktYgqerp36Sa1LjpVxr43BJ9wqGc-2BxuHC5AiPdpL2IybHJQ9laTx8zocNHbjZBd2iWuN84cqwjAeMquAU4tGd55JX40OKoh17J5H5F',
       description: '<img src="Quercia secolare.jpg"><br><br>Una guida incontrata lungo la Via Peuceta, da osservatore esterno, mi parla della Basilicata come di \"una terra cuscinetto, di cui non si deve parlare, dove solo i mediocri restano e regna il silenzio.\" Ammiro una quercia secolare la cui pace stride con la confusione che mi aspetta',
@@ -143,7 +143,7 @@ var config = {
     {
           id: 'drive-slide-3',
           alignment: 'left',
-          hidden: true,
+          hidden: false,
           title: 'Santeramo in Colle',
           //image: 'https://lh3.googleusercontent.com/proxy/ftw_SpSYfI1kbOigFYgOtB5khwscLh-aDp_e6lrmNjQiOshyl6vFKrNxuBVsktYgqerp36Sa1LjpVxr43BJ9wqGc-2BxuHC5AiPdpL2IybHJQ9laTx8zocNHbjZBd2iWuN84cqwjAeMquAU4tGd55JX40OKoh17J5H5F',
           description: '<iframe width="350" height="250" src="https://www.youtube.com/embed/4sKiwkKBq0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>Durante il cammino, ascolto la canzone composta da un cantautore per l\'inchiesta, al suon di musica avanzo nella murgia afosa.',
@@ -162,7 +162,7 @@ var config = {
         {
               id: 'drive-slide-4',
               alignment: 'left',
-              hidden: true,
+              hidden: false,
               title: 'Altamura',
               //image: 'https://lh3.googleusercontent.com/proxy/ftw_SpSYfI1kbOigFYgOtB5khwscLh-aDp_e6lrmNjQiOshyl6vFKrNxuBVsktYgqerp36Sa1LjpVxr43BJ9wqGc-2BxuHC5AiPdpL2IybHJQ9laTx8zocNHbjZBd2iWuN84cqwjAeMquAU4tGd55JX40OKoh17J5H5F',
               description: '<img src="Rifiuti.jpg"><br><br>Stridenti contrasti tra un cammino curato e ben segnato, e cumuli di rifiuti che marciscono accanto agli ulivi mi fanno presagire il sapore dell\'inchiesta',
@@ -181,7 +181,7 @@ var config = {
             {
                   id: 'drive-slide-5',
                   alignment: 'left',
-                  hidden: true,
+                  hidden: false,
                   title: 'Gravina di Puglia',
                   //image: 'https://lh3.googleusercontent.com/proxy/ftw_SpSYfI1kbOigFYgOtB5khwscLh-aDp_e6lrmNjQiOshyl6vFKrNxuBVsktYgqerp36Sa1LjpVxr43BJ9wqGc-2BxuHC5AiPdpL2IybHJQ9laTx8zocNHbjZBd2iWuN84cqwjAeMquAU4tGd55JX40OKoh17J5H5F',
                   description: '<img src="sentinella13-0.jpg"><br><br>Incontro Mimmo, sentinella lucana che mi accompagnerà nel percorso dell\'inchiesta.',
@@ -200,10 +200,10 @@ var config = {
                 {
                       id: 'drive-slide-6',
                       alignment: 'left',
-                      hidden: true,
+                      hidden: false,
                       title: 'Pisticci',
                       //image: 'https://lh3.googleusercontent.com/proxy/ftw_SpSYfI1kbOigFYgOtB5khwscLh-aDp_e6lrmNjQiOshyl6vFKrNxuBVsktYgqerp36Sa1LjpVxr43BJ9wqGc-2BxuHC5AiPdpL2IybHJQ9laTx8zocNHbjZBd2iWuN84cqwjAeMquAU4tGd55JX40OKoh17J5H5F',
-                      //description: 'Incontro Nico, insegnante a scuola e sentinella, che mi racconta delle battaglie del Movimento Tutela Val Basento',
+                      description: 'Arrivo a Pisticci...Continau a seguire le tappe dell\'inchiesta nella prossima mappa.',
                       location: {
                           // center: [16.55015, 40.39003],
                           // zoom: 15.17,
