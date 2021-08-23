@@ -30,7 +30,7 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'Ascolta l\'audio e scorri la mappa per seguire il mio cammino lento verso le tappe dell\'inchiesta.',
-            description: '<audio controls> <source src="mix per mappa cammino" type="audio/mpeg"></audio>',
+            description: '<audio controls> <source src="mix per mappa cammino.mp3" type="audio/mpeg"></audio>',
             location: {
               center: [8.61185, 45.91026],
               zoom: 10,
@@ -223,7 +223,7 @@ var config = {
                   hidden: false,
                   title: 'Pisticci',
                   //image: 'https://lh3.googleusercontent.com/proxy/ftw_SpSYfI1kbOigFYgOtB5khwscLh-aDp_e6lrmNjQiOshyl6vFKrNxuBVsktYgqerp36Sa1LjpVxr43BJ9wqGc-2BxuHC5AiPdpL2IybHJQ9laTx8zocNHbjZBd2iWuN84cqwjAeMquAU4tGd55JX40OKoh17J5H5F',
-                  description: 'Arrivo a Pisticci per le prime interviste, tra studi legali, piazze e chiese.Contina a seguire le tappe dell\'inchiesta nella prossima mappa <h3><a href="https://ctrnslv.github.io/ctrnslv5/"</a></h3>' ,
+                  description: 'Arrivo a Pisticci per le prime interviste, tra studi legali, piazze e chiese.<h3><a href="https://ctrnslv.github.io/ctrnslv5/"target="_blank">Contina a seguire le tappe dell\'inchiesta nella prossima mappa </a></h3>',
                   location: {
                       // center: [16.42194, 40.81895],
                       // zoom: 13.34,
