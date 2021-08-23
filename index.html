@@ -19,6 +19,7 @@
         a, a:hover, a:visited {
             color: #b52a2a;
 
+
 }
 h2{
   color:#fafafa;
@@ -55,6 +56,7 @@ h2{
             padding-top: 10vh;
             padding-bottom: 10vh;
             text-align: center;
+
         }
         .hidden {
             visibility: hidden;
@@ -78,10 +80,13 @@ h2{
         .light {
             color: #444;
             background-color: #fafafa;
+            border-radius: 25px;
         }
         .dark {
             color: #fafafa;
             background-color: #0a0a0a;
+            border-radius: 25px;
+        box-shadow: 0 0 15px #403333;
 
         }
         .step {
@@ -247,7 +252,7 @@ config.chapters.forEach((record, idx) => {
     var chapter = document.createElement('div');
 
     if (record.title) {
-        var title = document.createElement('h3');
+        var title = document.createElement('h2');
         title.innerText = record.title;
         chapter.appendChild(title);
     }
@@ -382,9 +387,9 @@ map.on("load", function() {
       "type": "line",
       "source": "lineSource",
       'paint': {
-            'line-opacity': 1,
+            'line-opacity': 0.7,
             'line-color': '#8a1617',
-            'line-width': 3.5
+            'line-width': 3.7
        },
        'layout': {
            'visibility': 'none'

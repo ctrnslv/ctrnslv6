@@ -15,7 +15,7 @@ var followBearing = 0;
 var followPitch = 0;
 
 var config = {
-    style: 'mapbox://styles/ctrnslv/ckseshhc152wz18rh8c2gt7j4',
+    style: 'mapbox://styles/ctrnslv/ckrq7r0ac0kuz17l5p96vf9qb',
     accessToken: 'pk.eyJ1IjoiY3RybnNsdiIsImEiOiJja3Jpd2tkeHgzN3pyMnVwOGpjcHJ1ODhoIn0.JucVmRdpKDMRmSbHVA9wtg',
     showMarkers: false,
     theme: 'dark',
@@ -30,7 +30,7 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'Ascolta l\'audio e scorri la mappa per seguire il mio cammino lento verso le tappe dell\'inchiesta.',
-            description: '<audio controls> <source src="mix_10m11s.mp3" type="audio/mpeg"></audio>',
+            description: '<audio controls> <source src="Audio per mappa.m4a" type="audio/mpeg"></audio>',
             location: {
               center: [8.61185, 45.91026],
               zoom: 10,
@@ -108,7 +108,7 @@ var config = {
             hidden: false,
             title: 'Bitetto',
             //image: 'https://lh3.googleusercontent.com/proxy/ftw_SpSYfI1kbOigFYgOtB5khwscLh-aDp_e6lrmNjQiOshyl6vFKrNxuBVsktYgqerp36Sa1LjpVxr43BJ9wqGc-2BxuHC5AiPdpL2IybHJQ9laTx8zocNHbjZBd2iWuN84cqwjAeMquAU4tGd55JX40OKoh17J5H5F',
-          description: '<img src="il totem.jpg"><br><br>Nello zaino, lo stretto indispensabile e un\'ispirazione, il libro di Alliegro \"Totem Nero\" che definisce la Basilicata <i>\"una sintesi formidabile di paradossi \[...\], isolata ma centrale, depressa ma ricca, densa di opportunità quanto di angoscia.\"<i><br><br><a href="https://www.libreriauniversitaria.it/totem-nero-petrolio-sviluppo-conflitti/libro/9788879755979">Totem Nero</a>',
+          description: '<img src="il totem.jpg"><br><br>Nello zaino, lo stretto indispensabile e un\'ispirazione, il libro di Alliegro \"Totem Nero\" che definisce la Basilicata <i>\"una sintesi formidabile di paradossi \[...\], isolata ma centrale, depressa ma ricca, densa di opportunità quanto di angoscia.\"</i><br><br><h3><a href="https://www.libreriauniversitaria.it/totem-nero-petrolio-sviluppo-conflitti/libro/9788879755979"target="_blank">Totem Nero</a></h3>',
             location: {
                 // //center: [16.86650, 41.12933],
                 // zoom: 11.29,
@@ -128,7 +128,7 @@ var config = {
       hidden: false,
       title: 'Cassano delle Murge',
       //image: 'https://lh3.googleusercontent.com/proxy/ftw_SpSYfI1kbOigFYgOtB5khwscLh-aDp_e6lrmNjQiOshyl6vFKrNxuBVsktYgqerp36Sa1LjpVxr43BJ9wqGc-2BxuHC5AiPdpL2IybHJQ9laTx8zocNHbjZBd2iWuN84cqwjAeMquAU4tGd55JX40OKoh17J5H5F',
-      description: '<img src="Quercia secolare.jpg"><br><br>Una guida incontrata lungo la Via Peuceta, da osservatore esterno, mi parla della Basilicata come di <i>\"una terra cuscinetto, di cui non si deve parlare, dove solo i mediocri restano e regna il silenzio.<i>\" Ammiro una quercia secolare la cui pace stride con la confusione che mi aspetta.',
+      description: '<img src="Quercia secolare.jpg"><br><br>Una guida incontrata lungo la Via Peuceta, da osservatore esterno, mi parla della Basilicata come di <i>\"una terra cuscinetto, di cui non si deve parlare, dove solo i mediocri restano e regna il silenzio.</i>\" Ammiro una quercia secolare la cui pace stride con la confusione che mi aspetta.',
       location: {
           //center: [16.74949, 41.04042],
           //zoom: 13.34,
@@ -147,7 +147,7 @@ var config = {
       hidden: false,
       title: 'Santeramo in Colle',
       //image: 'https://lh3.googleusercontent.com/proxy/ftw_SpSYfI1kbOigFYgOtB5khwscLh-aDp_e6lrmNjQiOshyl6vFKrNxuBVsktYgqerp36Sa1LjpVxr43BJ9wqGc-2BxuHC5AiPdpL2IybHJQ9laTx8zocNHbjZBd2iWuN84cqwjAeMquAU4tGd55JX40OKoh17J5H5F',
-      description: '<iframe width="300" height="250" src="https://www.youtube.com/embed/4sKiwkKBq0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>Durante il cammino, ascolto la canzone composta da un cantautore per l\'inchiesta;al suon di musica avanzo nella murgia afosa.',
+      description: '<iframe width="300" height="250" src="https://www.youtube.com/embed/4sKiwkKBq0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>Durante il cammino, ascolto la canzone composta da un cantautore per l\'inchiesta; al suon di musica avanzo nella murgia afosa.',
       location: {
           // //center: [16.76992, 40.88505],
           // zoom: 16,
@@ -219,11 +219,11 @@ var config = {
             },
             {
                   id: 'drive-slide-5',
-                  alignment: 'left',
+                  alignment: 'right',
                   hidden: false,
                   title: 'Pisticci',
                   //image: 'https://lh3.googleusercontent.com/proxy/ftw_SpSYfI1kbOigFYgOtB5khwscLh-aDp_e6lrmNjQiOshyl6vFKrNxuBVsktYgqerp36Sa1LjpVxr43BJ9wqGc-2BxuHC5AiPdpL2IybHJQ9laTx8zocNHbjZBd2iWuN84cqwjAeMquAU4tGd55JX40OKoh17J5H5F',
-                  description: 'Arrivo a Pisticci...Continau a seguire le tappe dell\'inchiesta nella prossima mappa.',
+                  description: 'Arrivo a Pisticci per le prime interviste, tra studi legali, piazze e chiese.Contina a seguire le tappe dell\'inchiesta nella prossima mappa <h3><a href="https://ctrnslv.github.io/ctrnslv5/"</a></h3>' ,
                   location: {
                       // center: [16.42194, 40.81895],
                       // zoom: 13.34,
@@ -238,11 +238,11 @@ var config = {
                 },
                 {
                       id: 'drive-slide-6',
-                      alignment: 'left',
+                      alignment: 'right',
                       hidden: true,
                       title: 'Pisticci',
                       //image: 'https://lh3.googleusercontent.com/proxy/ftw_SpSYfI1kbOigFYgOtB5khwscLh-aDp_e6lrmNjQiOshyl6vFKrNxuBVsktYgqerp36Sa1LjpVxr43BJ9wqGc-2BxuHC5AiPdpL2IybHJQ9laTx8zocNHbjZBd2iWuN84cqwjAeMquAU4tGd55JX40OKoh17J5H5F',
-                      description: 'Arrivo a Pisticci...Continau a seguire le tappe dell\'inchiesta nella prossima mappa.',
+                      description: 'Arrivo a Pisticci per le prime interviste, tra studi legali, piazze e chiese.Contina a seguire le tappe dell\'inchiesta nella prossima mappa ',
                       location: {
                           // center: [16.55015, 40.39003],
                           // zoom: 15.17,
