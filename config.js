@@ -15,7 +15,7 @@ var followBearing = 0;
 var followPitch = 0;
 
 var config = {
-    style: 'mapbox://styles/ctrnslv/ckrq7r0ac0kuz17l5p96vf9qb',
+    style: 'mapbox://styles/ctrnslv/cksotmo7l4f5y17oopuloeyby',
     accessToken: 'pk.eyJ1IjoiY3RybnNsdiIsImEiOiJja3Jpd2tkeHgzN3pyMnVwOGpjcHJ1ODhoIn0.JucVmRdpKDMRmSbHVA9wtg',
     showMarkers: false,
     theme: 'dark',
