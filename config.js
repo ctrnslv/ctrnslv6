@@ -29,7 +29,7 @@ var config = {
             id: 'slide-a',
             alignment: 'center',
             hidden: false,
-            title: 'Ascolta l\'audio e scorri la mappa per seguire il mio cammino lento verso le tappe dell\'inchiesta.',
+            title: 'Ascolta l\'audio e scorri la mappa per seguire il mio cammino lento.',
             description: '<audio controls> <source src="Mappa cammino short.mp3" type="audio/mpeg"></audio>',
             location: {
               center: [8.61185, 45.91026],
