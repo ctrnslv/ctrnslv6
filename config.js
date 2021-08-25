@@ -30,7 +30,7 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'Ascolta l\'audio e scorri la mappa per seguire il mio cammino lento verso le tappe dell\'inchiesta.',
-            description: '<audio controls> <source src="mix per mappa cammino.mp3" type="audio/mpeg"></audio>',
+            description: '<audio controls> <source src="Mappa cammino short.mp3" type="audio/mpeg"></audio>',
             location: {
               center: [8.61185, 45.91026],
               zoom: 10,
